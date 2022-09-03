@@ -1,0 +1,472 @@
+{
+    //= ========================================================================
+    //= Built-in
+    //= ========================================================================
+
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.exclude": {
+        "**/.git": false,
+        "**/.git**": true,
+        "**/*.bak": true,
+        "**/*.exe": true,
+        "**/*.jpg": true,
+        "**/*.png": true
+    },
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+
+    "[git-commit]": {
+        "editor.rulers": [50, 72]
+    },
+
+    //== =======================================================================
+    //== Color Customization
+    //== =======================================================================
+
+    //=== ======================================================================
+    //=== Editor Token
+    //=== ======================================================================
+
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "constant.language.ahk2",
+                    "keyword.control.ahk2",
+                    "keyword.control.directive.ahk2",
+                    "storage.modifier.ahk2",
+                    "storage.type.class.ahk2",
+                    "storage.type.function.ahk2",
+                    "variable.language.ahk2",
+                    "variable.language.this.ahk2",
+                    "variable.language.thishotkey.ahk2",
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.type.class",
+                    "keyword.keys.ahk2",
+                    "keyword.operator.ahk2",
+                    "keyword.operator.expression.ahk2",
+                    "support.function.ahk2",
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            },
+        ],
+        "[Monokai Pro*]":
+        {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "storage.type.class.ahk2"
+                    ],
+                    "settings": {
+                        "foreground": "#FF6188"
+                    }
+                },
+            ]
+        }
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+    },
+
+    //=== ======================================================================
+    //=== Workbench
+    //=== ======================================================================
+
+    "workbench.colorCustomizations": {
+        "[Monokai Pro*]": {
+            // Default
+            // "editorBracketHighlight.foreground1": "#ffd700",
+            // "editorBracketHighlight.foreground2": "#da70d6",
+            // "editorBracketHighlight.foreground3": "#179fff",
+            // "editorBracketHighlight.foreground4": "#ffd700",
+            // "editorBracketHighlight.foreground5": "#da70d6",
+            // "editorBracketHighlight.foreground6": "#179fff",
+
+            // Indent Rainbow
+            // "editorBracketHighlight.foreground1": "#fdd601",
+            // "editorBracketHighlight.foreground2": "#4ca14e",
+            // "editorBracketHighlight.foreground3": "#d86ed6",
+            // "editorBracketHighlight.foreground4": "#fdd601",
+            // "editorBracketHighlight.foreground5": "#4ca14e",
+            // "editorBracketHighlight.foreground6": "#d86ed6",
+
+            // Blue
+            // "editorBracketHighlight.foreground1": "#86b7fc",
+            // "editorBracketHighlight.foreground2": "#86b7fc",
+            // "editorBracketHighlight.foreground3": "#86b7fc",
+            // "editorBracketHighlight.foreground4": "#86b7fc",
+            // "editorBracketHighlight.foreground5": "#86b7fc",
+            // "editorBracketHighlight.foreground6": "#86b7fc",
+
+            // Blue, Pink
+            // "editorBracketHighlight.foreground1": "#86b7fc",
+            // "editorBracketHighlight.foreground2": "#ff79c6",
+            // "editorBracketHighlight.foreground3": "#86b7fc",
+            // "editorBracketHighlight.foreground4": "#ff79c6",
+            // "editorBracketHighlight.foreground5": "#86b7fc",
+            // "editorBracketHighlight.foreground6": "#ff79c6",
+
+            // Blue, Pink, Yellow
+            // "editorBracketHighlight.foreground1": "#86b7fc",
+            // "editorBracketHighlight.foreground2": "#ff79c6",
+            // "editorBracketHighlight.foreground3": "#FFD866",
+            // "editorBracketHighlight.foreground4": "#86b7fc",
+            // "editorBracketHighlight.foreground5": "#ff79c6",
+            // "editorBracketHighlight.foreground6": "#FFD866",
+
+            // Blue, Purple, Pink
+            // "editorBracketHighlight.foreground1": "#86b7fc",
+            // "editorBracketHighlight.foreground2": "#ab9df2",
+            // "editorBracketHighlight.foreground3": "#ff79c6",
+            // "editorBracketHighlight.foreground4": "#86b7fc",
+            // "editorBracketHighlight.foreground5": "#ab9df2",
+            // "editorBracketHighlight.foreground6": "#ff79c6",
+
+            // Blue, Purple
+            // "editorBracketHighlight.foreground1": "#86b7fc",
+            // "editorBracketHighlight.foreground2": "#ab9df2",
+            // "editorBracketHighlight.foreground3": "#86b7fc",
+            // "editorBracketHighlight.foreground4": "#ab9df2",
+            // "editorBracketHighlight.foreground5": "#86b7fc",
+            // "editorBracketHighlight.foreground6": "#ab9df2",
+
+            // Blue, Sky-blue
+            // "editorBracketHighlight.foreground1": "#86b7fc",
+            // "editorBracketHighlight.foreground2": "#78dce8",
+            // "editorBracketHighlight.foreground3": "#86b7fc",
+            // "editorBracketHighlight.foreground4": "#78dce8",
+            // "editorBracketHighlight.foreground5": "#86b7fc",
+            // "editorBracketHighlight.foreground6": "#78dce8"
+
+            // Sky-blue, Blue, Purple
+            // "editorBracketHighlight.foreground1": "#78dce8",
+            // "editorBracketHighlight.foreground2": "#86b7fc",
+            // "editorBracketHighlight.foreground3": "#ab9df2",
+            // "editorBracketHighlight.foreground4": "#78dce8",
+            // "editorBracketHighlight.foreground5": "#86b7fc",
+            // "editorBracketHighlight.foreground6": "#ab9df2",
+
+            // Blue, Purple, Sky-blue
+            "editorBracketHighlight.foreground1": "#86b7fc",
+            "editorBracketHighlight.foreground2": "#ab9df2",
+            "editorBracketHighlight.foreground3": "#78dce8",
+            "editorBracketHighlight.foreground4": "#86b7fc",
+            "editorBracketHighlight.foreground5": "#ab9df2",
+            "editorBracketHighlight.foreground6": "#78dce8",
+        }
+    },
+
+    //= ========================================================================
+    //= Extensions
+    //= ========================================================================
+
+    //== =======================================================================
+    //== Better Comments
+    //== =======================================================================
+
+    "better-comments.tags": [
+        {
+            "tag": "! ",
+            "color": "#ff6188",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "? ",
+            "color": "#ffd866",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "note: ",
+            "color": "#ffd866",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo: ",
+            "color": "#fc9867",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "// ",
+            "color": "#727072",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "$ ",
+            "color": "#727072",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "* ",
+            "color": "#a9dc76",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "= ",
+            "color": "#86b7fc",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "== ",
+            "color": "#ab9df2",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "=== ",
+            "color": "#78dce8",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+    ],
+
+    //== =======================================================================
+    //== CSpell
+    //== =======================================================================
+
+    "cSpell.enableFiletypes": [
+        "ahk",
+        "ahk2"
+    ],
+    "cSpell.userWords": [
+        "AHK",
+        "AutoHotkey",
+        "calt",
+        "Cascadia",
+        "consts",
+        "Desmos",
+        "endkey",
+        "enh",
+        "Fira",
+        "fsr",
+        "GruvBox",
+        "HKEY",
+        "hotstring",
+        "hotstrings",
+        "hwnd",
+        "idk",
+        "Javadoc",
+        "keymap",
+        "laggy",
+        "Lexikos",
+        "LINESCROLL",
+        "mdash",
+        "modeless",
+        "Monokai",
+        "MSEdge",
+        "ndash",
+        "NOINTEGRALHEIGHT",
+        "ntilde",
+        "pagedown",
+        "pageup",
+        "parens",
+        "Plex",
+        "Poblete",
+        "POWERPNT",
+        "proto",
+        "radic",
+        "RAKK",
+        "SETSEL",
+        "Spicetify",
+        "Submaps",
+        "thisHotkey",
+        "unmap",
+        "unstage",
+        "varsigma",
+        "Vimium",
+        "xbar",
+        "ZPPT"
+    ],
+    "cSpell.ignoreWords": [
+        "Acro",
+        "Boffinbrai"
+    ],
+
+    //== =======================================================================
+    //== GitLens
+    //== =======================================================================
+
+    "gitlens.menus": {
+        "editor": {
+            "blame": false,
+            "clipboard": true,
+            "compare": true,
+            "history": false,
+            "remote": false
+        },
+        "editorGroup": false,
+        "editorTab": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": true
+        },
+        "explorer": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": true
+        },
+        "scm": {
+            "authors": true
+        },
+        "scmGroupInline": {
+            "stash": true
+        },
+        "scmGroup": {
+            "compare": true,
+            "openClose": true,
+            "stash": true
+        },
+        "scmItem": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": false,
+            "stash": true
+        }
+    },
+    "gitlens.codeLens.scopes": [
+        "document"
+    ],
+
+    //== =======================================================================
+    //== Multi Command
+    //== =======================================================================
+
+    "multiCommand.commands": [
+        {
+            "command": "multiCommand.changeCamelAndSleep",
+            "interval": 40,
+            "sequence": [
+                "extension.changeCase.camel",
+            ]
+        },
+        {
+            "command": "multiCommand.changePascalAndSleep",
+            "interval": 20,
+            "sequence": [
+                "extension.changeCase.pascal"
+            ]
+        },
+    ],
+
+    //= ========================================================================
+    //= Single-line Settings
+    //= ========================================================================
+
+    // "editor.fontFamily": "'Cascadia Code'",
+    // "editor.fontLigatures": "'calt', 'ss01', 'ss19'",
+    // "editor.fontFamily": "'Fira Mono'",
+    // "editor.fontLigatures": "'zero', 'cv14', 'ss05', 'ss03', 'ss02', 'cv32', 'ss10'",
+    // "editor.fontFamily": "'Fira Code'",
+    // "editor.fontFamily": "'IBM Plex Mono'",
+    "editor.fontFamily": "'MonoLisa'",
+
+    "ahk++.executePath": "C:\\Program Files\\AutoHotkey\\v1.1.34.03\\AutoHotkeyU64_UIA.exe",
+    "ahk++.helpPath": "C:\\Program Files\\AutoHotkey\\v1.1.34.03\\AutoHotkey.chm",
+    "auto-comment-blocks.singleLineBlockOnEnter": true,
+    "AutoHotkey2.CompleteFunctionParens": true,
+    "AutoHotkey2.InterpreterPath": "C:\\Program Files\\Autohotkey\\v2\\AutoHotkey64.exe",
+    "codemap.ahk": "C:\\Users\\Zach Poblete\\Documents\\VSCode\\Extensions\\Codemap\\mapper_ahk.js",
+    "codemap.json": "C:\\Users\\Zach Poblete\\Documents\\VSCode\\Extensions\\Codemap\\mapper_json.js",
+    "codemap.location": "explorer",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.cursorSurroundingLines": 10,
+    "editor.guides.bracketPairs": "active",
+    "editor.guides.bracketPairsHorizontal": false,
+    "editor.minimap.enabled": false,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.scale": 2,
+    "editor.minimap.showSlider": "always",
+    "editor.mouseWheelZoom": true,
+    "editor.renderWhitespace": "none",
+    "editor.rulers": [80, 120],
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 120,
+    "editor.wrappingIndent": "deepIndent",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "extensions.autoUpdate": false,
+    "git.confirmSync": false,
+    "gitHistory.showEditorTitleMenuBarIcons": false,
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "operate-from-autohotkey.externalLibrary.acc": "C:\\Users\\Zach Poblete\\Downloads\\Acc.ahk",
+    "outline.showProperties": false,
+    "outline.showVariables": false,
+    "rpc.buttonActiveLabel": "View GitHub repository",
+    "rpc.buttonEnabled": true,
+    "rpc.buttonInactiveLabel": "View GitHub profile",
+    "rpc.buttonInactiveUrl": "https://github.com/KingQuarter",
+    "rpc.detailsEditing": "Editing {file_name}",
+    "rpc.detailsIdling": "Chilling",
+    "rpc.detailsViewing": "Viewing {file_name}",
+    "rpc.largeImage": "{LANG} file",
+    "rpc.largeImageIdling": "No file",
+    "rpc.lowerDetailsDebugging": "ᕕ( ᐛ )ᕗ",
+    "rpc.lowerDetailsEditing": "ᕕ( ᐛ )ᕗ",
+    "rpc.lowerDetailsIdling": "ᕕ( ᐛ )ᕗ",
+    "rpc.lowerDetailsNoWorkspaceFound": "ᕕ( ᐛ )ᕗ",
+    "rpc.lowerDetailsViewing": "ᕕ( ᐛ )ᕗ",
+    "rpc.removeLowerDetailsIdling": false,
+    "rpc.showProblems": false,
+    "rpc.smallImage": "VS Code",
+    "scm.inputFontFamily": "editor",
+    "update.mode": "manual",
+    "window.zoomLevel": 0,
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "Monokai Pro",
+    "workbench.editor.showTabs": false,
+    "workbench.editor.wrapTabs": true,
+    "workbench.iconTheme": "material-icon-theme",
+}
