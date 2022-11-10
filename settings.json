@@ -485,7 +485,6 @@
     "git.confirmSync": false,
     "gitHistory.showEditorTitleMenuBarIcons": false,
     "gitlens.codeLens.authors.enabled": false,
-    "gitlens.currentLine.enabled": false,
     "operate-from-autohotkey.externalLibrary.acc": "C:\\Users\\Zach Poblete\\Downloads\\Acc.ahk",
     "outline.showProperties": false,
     "outline.showVariables": false,
