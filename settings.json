@@ -491,7 +491,6 @@
     "scm.inputFontFamily": "editor",
     "update.mode": "manual",
     "window.zoomLevel": 0,
-    "workbench.activityBar.visible": false,
     "workbench.colorTheme": "Monokai Pro",
     "workbench.editor.showTabs": false,
     "workbench.editor.wrapTabs": true,
