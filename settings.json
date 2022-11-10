@@ -222,7 +222,7 @@
             "italic": false
         },
         {
-            "tag": "$ ",
+            "tag": "~ ",
             "color": "#727072",
             "strikethrough": true,
             "underline": false,
