@@ -32,59 +32,73 @@
         "command": "-gitlens.showQuickFileHistory",
         "when": "!gitlens:disabled && config.gitlens.keymap == 'chorded'"
     },
+    {
+        "key": "ctrl+shift+g c",
+        "command": "-gitlens.showQuickCommitFileDetails",
+        "when": "editorTextFocus && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
+    },
+    {
+        "key": "ctrl+shift+g s",
+        "command": "-gitlens.showQuickRepoStatus",
+        "when": "!gitlens:disabled && config.gitlens.keymap == 'chorded'"
+    },
 
     {
-        "key": "ctrl+alt+a",
+        "key": "ctrl+shift+g a",
         "command": "git.stageAll"
     },
     {
-        "key": "ctrl+shift+alt+a",
+        "key": "ctrl+shift+g shift+a",
         "command": "git.unstageAll"
     },
     {
-        "key": "ctrl+alt+c",
+        "key": "ctrl+shift+g c",
         "command": "git.commitStaged"
     },
     {
-        "key": "ctrl+shift+alt+c",
+        "key": "ctrl+shift+g shift+c",
         "command": "git.undoCommit"
     },
     {
-        "key": "ctrl+alt+h",
+        "key": "ctrl+shift+g h",
         "command": "git.viewHistory"
     },
     {
-        "key": "ctrl+shift+alt+h",
+        "key": "ctrl+shift+g shift+h",
         "command": "git.viewLineHistory"
     },
     {
-        "key": "ctrl+alt+i",
+        "key": "ctrl+shift+g i",
         "command": "git.init"
     },
     {
-        "key": "ctrl+alt+o",
+        "key": "ctrl+shift+g o",
         "command": "gitlens.openCurrentBranchOnRemote"
     },
     {
-        "key": "ctrl+alt+p",
+        "key": "ctrl+shift+g p",
         "command": "git.push"
     },
     {
-        "key": "ctrl+shift+alt+p",
+        "key": "ctrl+shift+g shift+p",
+        "command": "git.pushForce"
+    },
+    {
+        "key": "ctrl+shift+g alt+p",
         "command": "git.publish"
     },
     {
-        "key": "ctrl+alt+r",
+        "key": "ctrl+shift+g r",
         "command": "git.revertSelectedRanges",
         "when": "isInDiffEditor"
     },
     {
-        "key": "ctrl+alt+s",
+        "key": "ctrl+shift+g s",
         "command": "git.stageSelectedRanges",
         "when": "isInDiffEditor"
     },
     {
-        "key": "ctrl+shift+alt+s",
+        "key": "ctrl+shift+g shift+s",
         "command": "git.unstageSelectedRanges",
         "when": "isInDiffEditor"
     },
