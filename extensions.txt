@@ -2,7 +2,7 @@ aaron-bond.better-comments-3.0.2
 albymor.increment-selection-0.2.0
 chunsen.bracket-select-2.0.2
 donjayamanne.githistory-0.6.19
-eamodio.gitlens-12.2.2
+eamodio.gitlens-13.0.4
 fausto95.swap-0.0.5
 leonardssh.vscord-5.0.10
 mark-wiemer.vscode-autohotkey-plus-plus-3.0.0
