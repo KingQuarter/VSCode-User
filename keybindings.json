@@ -217,7 +217,7 @@
     },
     {
         "key": "alt+i",
-        "command": "cSpell.addIgnoreWord",
+        "command": "cSpell.addIgnoreWordsToUser",
         "when": "editorFocus"
     },
     {
