@@ -328,6 +328,7 @@
         "Grammarly",
         "GruvBox",
         "HKEY",
+        "horiz",
         "hotstring",
         "hotstrings",
         "hwnd",
@@ -362,11 +363,20 @@
         "Vimium",
         "vscord",
         "xbar",
+        "xdigit",
         "ZPPT"
     ],
     "cSpell.ignoreWords": [
         "Acro",
-        "Boffinbrai"
+        "Boffinbrai",
+        "Decem",
+        "Febr",
+        "Novem",
+        "Octo",
+        "Satur",
+        "Septem",
+        "Wednes",
+        "uary"
     ],
 
     "cSpell.ignorePaths": [
