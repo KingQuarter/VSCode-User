@@ -1,5 +1,328 @@
 [
     //= ========================================================================
+    //= Built-in
+    //= ========================================================================
+
+    //== =======================================================================
+    //== Activity Bar
+    //== =======================================================================
+
+    {
+        "key": "ctrl+shift+a",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    },
+
+    //== =======================================================================
+    //== Increment
+    //== =======================================================================
+
+    {
+        "key": "ctrl+i",
+        "command": "-editor.action.triggerSuggest",
+        "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "-toggleSuggestionDetails",
+        "when": "suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "-workbench.action.toggleDevTools",
+        "when": "isDevelopment"
+    },
+
+    {
+        "key": "ctrl+i",
+        "command": "editor.emmet.action.incrementNumberByOne",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "editor.emmet.action.decrementNumberByOne",
+        "when": "editorFocus"
+    },
+
+    //== =======================================================================
+    //== Open
+    //== =======================================================================
+
+    {
+        "key": "ctrl+shift+,",
+        "command": "-editor.action.inPlaceReplace.up",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+
+    {
+        "key": "ctrl+shift+, s",
+        "command": "workbench.action.openSettingsJson"
+    },
+
+    {
+        "key": "ctrl+shift+, k",
+        "command": "workbench.action.openGlobalKeybindingsFile"
+    },
+    {
+        "key": "ctrl+shift+, shift+s",
+        "command": "workbench.action.openSnippets"
+    },
+
+    //== =======================================================================
+    //== Reload
+    //== =======================================================================
+
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.reloadWindow",
+        "when": "isDevelopment"
+    },
+
+    {
+        "key": "ctrl+r",
+        "command": "workbench.action.reloadWindow"
+    },
+
+    //== =======================================================================
+    //== Run
+    //== =======================================================================
+
+    {
+        "key": "ctrl+f5",
+        "command": "-workbench.action.debug.run",
+        "when": "debuggersAvailable && debugState != 'initializing'"
+    },
+    {
+        "key": "ctrl+f5",
+        "command": "-ahk2.selection.run",
+        "when": "editorHasSelection && editorLangId == 'ahk2'"
+    },
+    {
+        "key": "ctrl+shift+f5",
+        "command": "-ahk2.compile",
+        "when": "editorLangId == 'ahk2'"
+    },
+
+    {
+        "key": "ctrl+f5",
+        "command": "ahk2.run",
+        "when": "editorHasSelection && editorLangId == 'ahk2'"
+    },
+    {
+        "key": "ctrl+shift+f5",
+        "command": "ahk2.selection.run",
+        "when": "editorHasSelection && editorLangId == 'ahk2'"
+    },
+
+    //== =======================================================================
+    //== Sort
+    //== =======================================================================
+
+    {
+        "key": "shift+alt+s",
+        "command": "editor.action.sortLinesAscending",
+        "when": "editorHasSelection"
+    },
+
+    //== =======================================================================
+    //== Zoom
+    //== =======================================================================
+
+    {
+        "key": "ctrl+=",
+        "command": "-workbench.action.zoomIn"
+    },
+    {
+        "key": "ctrl+-",
+        "command": "-workbench.action.zoomOut"
+    },
+    {
+        "key": "ctrl+0",
+        "command": "-workbench.action.focusSideBar"
+    },
+
+    {
+        "key": "ctrl+=",
+        "command": "editor.action.fontZoomIn"
+    },
+    {
+        "key": "ctrl+-",
+        "command": "editor.action.fontZoomOut"
+    },
+    {
+        "key": "ctrl+0",
+        "command": "editor.action.fontZoomReset"
+    },
+
+    //= ========================================================================
+    //= Extensions
+    //= ========================================================================
+
+    //== =======================================================================
+    //== Bracket Select
+    //== =======================================================================
+
+    {
+        "key": "ctrl+alt+a",
+        "command": "-bracket-select.select-include",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+a",
+        "command": "-bracket-select.select",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+z",
+        "command": "-bracket-select.undo-select",
+        "when": "editorTextFocus"
+    },
+
+    {
+        "key": "ctrl+alt+\\",
+        "command": "bracket-select.select",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+\\",
+        "command": "bracket-select.undo-select",
+        "when": "editorTextFocus"
+    },
+
+    //== =======================================================================
+    //== Code Map
+    //== =======================================================================
+
+    {
+        "key": "alt+p",
+        "command": "-codemap.quick_pick"
+    },
+    {
+        "key": "alt+l",
+        "command": "-codemap.reveal"
+    },
+
+    {
+        "key": "ctrl+shift+alt+o",
+        "command": "codemap-explorer-view.focus"
+    },
+
+    //== =======================================================================
+    //== CSpell
+    //== =======================================================================
+
+    {
+        "key": "alt+d",
+        "command": "cSpell.addWordToUserDictionary",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+i",
+        "command": "cSpell.addIgnoreWord",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+f6",
+        "command": "cSpell.goToNextSpellingIssue"
+    },
+    {
+        "key": "shift+alt+f6",
+        "command": "cSpell.goToPreviousSpellingIssue"
+    },
+
+    //== =======================================================================
+    //== Increment
+    //== =======================================================================
+
+    {
+        "key": "ctrl+alt+i",
+        "command": "-extension.incrementSelection",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+i",
+        "command": "extension.incrementSelection",
+        "when": "editorTextFocus"
+    },
+
+    //== =======================================================================
+    //== Multi Command
+    //== =======================================================================
+
+    //=== ======================================================================
+    //=== IntelliSense
+    //=== ======================================================================
+
+    {
+        "key": "shift+tab",
+        "command": "extension.multiCommand.execute",
+        "args": {
+            "sequence": [
+                "acceptSelectedSuggestion",
+                "cursorLeft",
+                "cursorLeft",
+                "multiCommand.changeCamelAndSleep",
+                "cursorRight"
+            ]
+        },
+        "when": "editorFocus && suggestWidgetVisible"
+    },
+    {
+        "key": "shift+enter",
+        "command": "extension.multiCommand.execute",
+        "args": {
+            "sequence": [
+                "acceptSelectedSuggestion",
+                "cursorLeft",
+                "multiCommand.changePascalAndSleep",
+                "cursorRight",
+                "cursorRight"
+            ]
+        },
+        "when": "editorFocus && suggestWidgetVisible"
+    },
+
+    //== =======================================================================
+    //== Navigate Edit Locations
+    //== =======================================================================
+
+    {
+        "key": "ctrl+alt+left",
+        "command": "-workbench.action.moveEditorToPreviousGroup"
+    },
+    {
+        "key": "ctrl+alt+right",
+        "command": "-workbench.action.moveEditorToNextGroup"
+    },
+
+    {
+        "key": "ctrl+alt+left",
+        "command": "workbench.action.navigateBackInEditLocations"
+    },
+    {
+        "key": "ctrl+alt+right",
+        "command": "workbench.action.navigateForwardInEditLocations"
+    },
+    {
+        "key": "ctrl+alt+z",
+        "command": "workbench.action.navigatePreviousInEditLocations"
+    },
+
+    //== =======================================================================
+    //== Toggle Block Comment
+    //== =======================================================================
+
+    {
+        "key": "shift+alt+a",
+        "command": "-editor.action.blockComment",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+/",
+        "command": "editor.action.blockComment",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+
+    //= ========================================================================
     //= Git
     //= ========================================================================
 
@@ -101,329 +424,6 @@
         "key": "ctrl+shift+g shift+s",
         "command": "git.unstageSelectedRanges",
         "when": "isInDiffEditor"
-    },
-
-    //= ========================================================================
-    //= Built-in
-    //= ========================================================================
-
-    //== =======================================================================
-    //== Activity Bar
-    //== =======================================================================
-
-    {
-        "key": "ctrl+shift+a",
-        "command": "workbench.action.toggleActivityBarVisibility"
-    },
-
-    //== =======================================================================
-    //== Increment
-    //== =======================================================================
-
-    {
-        "key": "ctrl+i",
-        "command": "-editor.action.triggerSuggest",
-        "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+i",
-        "command": "-toggleSuggestionDetails",
-        "when": "suggestWidgetVisible && textInputFocus"
-    },
-    {
-        "key": "ctrl+shift+i",
-        "command": "-workbench.action.toggleDevTools",
-        "when": "isDevelopment"
-    },
-
-    {
-        "key": "ctrl+i",
-        "command": "editor.emmet.action.incrementNumberByOne",
-        "when": "editorFocus"
-    },
-    {
-        "key": "ctrl+shift+i",
-        "command": "editor.emmet.action.decrementNumberByOne",
-        "when": "editorFocus"
-    },
-
-    //== =======================================================================
-    //== Run
-    //== =======================================================================
-
-    {
-        "key": "ctrl+f5",
-        "command": "-workbench.action.debug.run",
-        "when": "debuggersAvailable && debugState != 'initializing'"
-    },
-    {
-        "key": "ctrl+f5",
-        "command": "-ahk2.selection.run",
-        "when": "editorHasSelection && editorLangId == 'ahk2'"
-    },
-    {
-        "key": "ctrl+shift+f5",
-        "command": "-ahk2.compile",
-        "when": "editorLangId == 'ahk2'"
-    },
-
-    {
-        "key": "ctrl+f5",
-        "command": "ahk2.run",
-        "when": "editorHasSelection && editorLangId == 'ahk2'"
-    },
-    {
-        "key": "ctrl+shift+f5",
-        "command": "ahk2.selection.run",
-        "when": "editorHasSelection && editorLangId == 'ahk2'"
-    },
-
-    //== =======================================================================
-    //== Reload
-    //== =======================================================================
-
-    {
-        "key": "ctrl+r",
-        "command": "-workbench.action.reloadWindow",
-        "when": "isDevelopment"
-    },
-
-    {
-        "key": "ctrl+r",
-        "command": "workbench.action.reloadWindow"
-    },
-
-    //== =======================================================================
-    //== Open
-    //== =======================================================================
-
-    {
-        "key": "ctrl+shift+,",
-        "command": "-editor.action.inPlaceReplace.up",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-
-    {
-        "key": "ctrl+shift+, s",
-        "command": "workbench.action.openSettingsJson"
-    },
-
-    {
-        "key": "ctrl+shift+, k",
-        "command": "workbench.action.openGlobalKeybindingsFile"
-    },
-    {
-        "key": "ctrl+shift+, shift+s",
-        "command": "workbench.action.openSnippets"
-    },
-
-    //== =======================================================================
-    //== Sort
-    //== =======================================================================
-
-    {
-        "key": "shift+alt+s",
-        "command": "editor.action.sortLinesAscending",
-        "when": "editorHasSelection"
-    },
-
-    //== =======================================================================
-    //== Zoom
-    //== =======================================================================
-
-    {
-        "key": "ctrl+=",
-        "command": "-workbench.action.zoomIn"
-    },
-    {
-        "key": "ctrl+-",
-        "command": "-workbench.action.zoomOut"
-    },
-    {
-        "key": "ctrl+0",
-        "command": "-workbench.action.focusSideBar"
-    },
-
-    {
-        "key": "ctrl+=",
-        "command": "editor.action.fontZoomIn"
-    },
-    {
-        "key": "ctrl+-",
-        "command": "editor.action.fontZoomOut"
-    },
-    {
-        "key": "ctrl+0",
-        "command": "editor.action.fontZoomReset"
-    },
-
-    //= ========================================================================
-    //= Extensions
-    //= ========================================================================
-
-    //== =======================================================================
-    //== Bracket Select
-    //== =======================================================================
-
-    {
-        "key": "ctrl+alt+a",
-        "command": "-bracket-select.select-include",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+a",
-        "command": "-bracket-select.select",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+z",
-        "command": "-bracket-select.undo-select",
-        "when": "editorTextFocus"
-    },
-
-    {
-        "key": "ctrl+alt+\\",
-        "command": "bracket-select.select",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+shift+alt+\\",
-        "command": "bracket-select.undo-select",
-        "when": "editorTextFocus"
-    },
-
-    //== =======================================================================
-    //== CSpell
-    //== =======================================================================
-
-    {
-        "key": "alt+d",
-        "command": "cSpell.addWordToUserDictionary",
-        "when": "editorFocus"
-    },
-    {
-        "key": "alt+i",
-        "command": "cSpell.addIgnoreWord",
-        "when": "editorFocus"
-    },
-    {
-        "key": "alt+f6",
-        "command": "cSpell.goToNextSpellingIssue"
-    },
-    {
-        "key": "shift+alt+f6",
-        "command": "cSpell.goToPreviousSpellingIssue"
-    },
-
-    //== =======================================================================
-    //== Code Map
-    //== =======================================================================
-
-    {
-        "key": "alt+p",
-        "command": "-codemap.quick_pick"
-    },
-    {
-        "key": "alt+l",
-        "command": "-codemap.reveal"
-    },
-
-    {
-        "key": "ctrl+shift+alt+o",
-        "command": "codemap-explorer-view.focus"
-    },
-
-    //== =======================================================================
-    //== Increment
-    //== =======================================================================
-
-    {
-        "key": "ctrl+alt+i",
-        "command": "-extension.incrementSelection",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+shift+alt+i",
-        "command": "extension.incrementSelection",
-        "when": "editorTextFocus"
-    },
-
-    //== =======================================================================
-    //== Multi Command
-    //== =======================================================================
-
-    //=== ======================================================================
-    //=== IntelliSense
-    //=== ======================================================================
-
-    {
-        "key": "shift+tab",
-        "command": "extension.multiCommand.execute",
-        "args": {
-            "sequence": [
-                "acceptSelectedSuggestion",
-                "cursorLeft",
-                "cursorLeft",
-                "multiCommand.changeCamelAndSleep",
-                "cursorRight"
-            ]
-        },
-        "when": "editorFocus && suggestWidgetVisible"
-    },
-    {
-        "key": "shift+enter",
-        "command": "extension.multiCommand.execute",
-        "args": {
-            "sequence": [
-                "acceptSelectedSuggestion",
-                "cursorLeft",
-                "multiCommand.changePascalAndSleep",
-                "cursorRight",
-                "cursorRight"
-            ]
-        },
-        "when": "editorFocus && suggestWidgetVisible"
-    },
-
-    //== =======================================================================
-    //== Navigate Edit Locations
-    //== =======================================================================
-
-    {
-        "key": "ctrl+alt+left",
-        "command": "-workbench.action.moveEditorToPreviousGroup"
-    },
-    {
-        "key": "ctrl+alt+right",
-        "command": "-workbench.action.moveEditorToNextGroup"
-    },
-
-    {
-        "key": "ctrl+alt+left",
-        "command": "workbench.action.navigateBackInEditLocations"
-    },
-    {
-        "key": "ctrl+alt+right",
-        "command": "workbench.action.navigateForwardInEditLocations"
-    },
-    {
-        "key": "ctrl+alt+z",
-        "command": "workbench.action.navigatePreviousInEditLocations"
-    },
-
-    //== =======================================================================
-    //== Toggle Block Comment
-    //== =======================================================================
-
-    {
-        "key": "shift+alt+a",
-        "command": "-editor.action.blockComment",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+shift+/",
-        "command": "editor.action.blockComment",
-        "when": "editorTextFocus && !editorReadonly"
     },
 
     //= ========================================================================

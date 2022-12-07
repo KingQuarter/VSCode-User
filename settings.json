@@ -22,19 +22,6 @@
     },
 
     //== =======================================================================
-    //== PowerShell
-    //== =======================================================================
-
-    "terminal.integrated.profiles.windows": {
-        "PowerShell": {
-            "source": "PowerShell",
-            "icon": "terminal-powershell",
-            "args": ["-ExecutionPolicy", "Bypass"]
-        }
-    },
-    "terminal.integrated.defaultProfile.windows": "PowerShell",
-
-    //== =======================================================================
     //== Color Customization
     //== =======================================================================
 
@@ -179,6 +166,19 @@
             "editorBracketHighlight.foreground6": "#78dce8",
         }
     },
+
+    //== =======================================================================
+    //== PowerShell
+    //== =======================================================================
+
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell",
+            "args": ["-ExecutionPolicy", "Bypass"]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
 
     //= ========================================================================
     //= Extensions
