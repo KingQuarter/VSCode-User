@@ -22,9 +22,9 @@ class mapper {
                     if (/^;=\s[^=]/.test(line))
                         members.push(`${line.substr(3)}|${line_num}|level1`);
                     else if (/^;==\s[^=]/.test(line))
-                        members.push(`    ${line.substr(4)}|${line_num}|level2`);
+                        members.push(` ${line.substr(4)}|${line_num}|level2`);
                     else if (/^;===\s[^=]/.test(line))
-                        members.push(`        ${line.substr(5)}|${line_num}|level3`);
+                        members.push(`  ${line.substr(5)}|${line_num}|level3`);
             });
         }
         catch (error) {
