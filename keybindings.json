@@ -194,7 +194,7 @@
     },
 
     //== =======================================================================
-    //== Settings
+    //== Open
     //== =======================================================================
 
     {
@@ -204,8 +204,17 @@
     },
 
     {
-        "key": "ctrl+shift+,",
+        "key": "ctrl+shift+, s",
         "command": "workbench.action.openSettingsJson"
+    },
+
+    {
+        "key": "ctrl+shift+, k",
+        "command": "workbench.action.openGlobalKeybindingsFile"
+    },
+    {
+        "key": "ctrl+shift+, shift+s",
+        "command": "workbench.action.openSnippets"
     },
 
     //== =======================================================================
