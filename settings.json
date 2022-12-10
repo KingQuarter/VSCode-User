@@ -332,6 +332,7 @@
         "hotstring",
         "hotstrings",
         "hwnd",
+        "hwnds",
         "idk",
         "Javadoc",
         "keymap",
@@ -376,7 +377,8 @@
         "Satur",
         "Septem",
         "Wednes",
-        "uary"
+        "uary",
+        "urrent"
     ],
 
     "cSpell.ignorePaths": [
