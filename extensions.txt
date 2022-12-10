@@ -13,7 +13,7 @@ ryuta46.multi-command-1.6.0
 slysherz.comment-box-2.2.1
 streetsidesoftware.code-spell-checker-2.12.0
 stylemistake.auto-comment-blocks-1.1.1
-thqby.vscode-autohotkey2-lsp-1.7.8
+thqby.vscode-autohotkey2-lsp-1.7.9
 wmaurer.change-case-1.0.0
 zero-plusplus.vscode-autohotkey-debug-1.11.0
 zero-plusplus.vscode-operate-from-autohotkey-1.0.0
