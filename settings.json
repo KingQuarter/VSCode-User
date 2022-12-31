@@ -509,7 +509,6 @@
     "editor.wrappingIndent": "deepIndent",
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
-    "extensions.autoUpdate": false,
     "git.allowForcePush": true,
     "git.confirmSync": false,
     "gitHistory.showEditorTitleMenuBarIcons": false,
