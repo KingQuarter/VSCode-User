@@ -491,6 +491,7 @@
     "codemap.location": "explorer",
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.acceptSuggestionOnEnter": "off",
+    "editor.accessibilitySupport": "off",
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
     "editor.cursorSurroundingLines": 10,
     "editor.guides.bracketPairs": "active",
