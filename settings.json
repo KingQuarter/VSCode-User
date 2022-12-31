@@ -514,7 +514,6 @@
     "outline.showProperties": false,
     "outline.showVariables": false,
     "scm.inputFontFamily": "editor",
-    "update.mode": "manual",
     "git.allowForcePush": true,
     "vscord.status.button.active.enabled": true,
     "vscord.status.button.active.label": "View GitHub repository",
