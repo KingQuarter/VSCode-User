@@ -4,6 +4,7 @@ chunsen.bracket-select
 donjayamanne.githistory
 eamodio.gitlens
 fausto95.swap
+grapecity.gc-excelviewer
 mark-wiemer.vscode-autohotkey-plus-plus
 monokai.theme-monokai-pro-vscode
 ms-vscode.powershell
