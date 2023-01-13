@@ -4,7 +4,6 @@ chunsen.bracket-select
 donjayamanne.githistory
 eamodio.gitlens
 fausto95.swap
-leonardssh.vscord
 mark-wiemer.vscode-autohotkey-plus-plus
 monokai.theme-monokai-pro-vscode
 oleg-shilo.codemap
