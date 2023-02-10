@@ -492,6 +492,7 @@
     "AutoHotkey2.CompleteFunctionParens": true,
     "codemap.ahk": "C:\\Users\\Zach Poblete\\AppData\\Roaming\\Code\\User\\codemap.user\\mapper_ahk.js",
     "codemap.json": "C:\\Users\\Zach Poblete\\AppData\\Roaming\\Code\\User\\codemap.user\\mapper_json.js",
+    "codemap.md": "C:\\Users\\Zach Poblete\\AppData\\Roaming\\Code\\User\\codemap.user\\mapper_md.js",
     "codemap.location": "explorer",
     "csv-preview.resizeColumns": "all",
     "diffEditor.ignoreTrimWhitespace": false,
