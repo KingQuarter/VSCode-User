@@ -1,0 +1,10 @@
+{
+	"kbd": {
+		"prefix": "kbd",
+		"body": "<kbd>$1</kbd>$0"
+	},
+	"subtitle": {
+		"prefix": "subtitle",
+		"body": "<font size =\"2\">_($1)_</font>$0"
+	}
+}

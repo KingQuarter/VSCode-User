@@ -21,6 +21,14 @@
         "editor.rulers": [50, 72]
     },
 
+    "[markdown]": {
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": true,
+            "strings": true
+        }
+    },
+    
     "workbench.editorAssociations": {
         "*.csv": "gc-excelviewer-csv-editor"
     },
