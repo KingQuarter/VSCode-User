@@ -1,5 +1,6 @@
 aaron-bond.better-comments
 albymor.increment-selection
+bierner.markdown-preview-github-styles
 chunsen.bracket-select
 donjayamanne.githistory
 eamodio.gitlens
