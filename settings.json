@@ -540,4 +540,9 @@
     "workbench.editor.showTabs": false,
     "workbench.editor.wrapTabs": true,
     "workbench.iconTheme": "material-icon-theme",
+    
+    //= ========================================================================
+    //= New
+    //= ========================================================================
+
 }
