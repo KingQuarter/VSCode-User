@@ -28,7 +28,11 @@
             "strings": true
         }
     },
-    
+
+    "files.associations": {
+        "*.json": "json"
+    },
+
     "workbench.editorAssociations": {
         "*.csv": "gc-excelviewer-csv-editor"
     },
