@@ -12,7 +12,7 @@ class mapper {
     static generate(file) {
         let members = [];
         try {
-            let line_num = 0; 
+            let line_num = 0;
             let image_index = 1;
             mapper
                 .read_all_lines(file)
