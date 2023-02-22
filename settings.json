@@ -468,23 +468,6 @@
     //== Multi Command
     //== =======================================================================
 
-    "multiCommand.commands": [
-        {
-            "command": "multiCommand.changeCamelAndSleep",
-            "interval": 40,
-            "sequence": [
-                "extension.changeCase.camel",
-            ]
-        },
-        {
-            "command": "multiCommand.changePascalAndSleep",
-            "interval": 20,
-            "sequence": [
-                "extension.changeCase.pascal"
-            ]
-        },
-    ],
-
     //= ========================================================================
     //= Single-line Settings
     //= ========================================================================

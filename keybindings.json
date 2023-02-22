@@ -252,35 +252,6 @@
     //=== IntelliSense
     //=== ======================================================================
 
-    {
-        "key": "shift+tab",
-        "command": "extension.multiCommand.execute",
-        "args": {
-            "sequence": [
-                "acceptSelectedSuggestion",
-                "cursorLeft",
-                "cursorLeft",
-                "multiCommand.changeCamelAndSleep",
-                "cursorRight"
-            ]
-        },
-        "when": "editorFocus && suggestWidgetVisible"
-    },
-    {
-        "key": "shift+enter",
-        "command": "extension.multiCommand.execute",
-        "args": {
-            "sequence": [
-                "acceptSelectedSuggestion",
-                "cursorLeft",
-                "multiCommand.changePascalAndSleep",
-                "cursorRight",
-                "cursorRight"
-            ]
-        },
-        "when": "editorFocus && suggestWidgetVisible"
-    },
-
     //== =======================================================================
     //== Navigate Edit Locations
     //== =======================================================================
