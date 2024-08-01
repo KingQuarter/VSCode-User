@@ -306,6 +306,13 @@
     "grammarly.files.exclude": [
         "**/extensions.txt"
     ],
+    "grammarly.files.include": [
+        "**/readme.md",
+        "**/README.md",
+        "**/*.txt",
+        "**/*.ahk",
+        "**/.git/COMMIT_EDITMSG"
+    ],
 
     //== =======================================================================
     //== GitLens
