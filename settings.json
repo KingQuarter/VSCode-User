@@ -395,6 +395,7 @@
     "editor.wrappingIndent": "indent",
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
+    "explorer.sortOrderLexicographicOptions": "upper",
     "git.allowForcePush": true,
     "git.confirmSync": false,
     "gitHistory.showEditorTitleMenuBarIcons": false,
