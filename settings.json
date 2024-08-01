@@ -405,7 +405,6 @@
     "outline.showVariables": false,
     "scm.inputFontFamily": "editor",
     "terminal.integrated.fontFamily": "MesloLGM NF",
-    "window.zoomLevel": 0,
     "workbench.colorTheme": "Monokai Pro",
     "workbench.editor.showTabs": false,
     "workbench.editor.wrapTabs": true,
