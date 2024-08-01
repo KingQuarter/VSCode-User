@@ -276,29 +276,6 @@
     ],
 
     //== =======================================================================
-    //== Comment Box
-    //== =======================================================================
-
-    "commentBox.styles": {
-        "defaultStyle": {
-            "capitalize": false,
-            "textAlignment": "center",
-            "boxWidth": 80,
-
-            "commentStartToken": "/*= ",
-            "topEdgeToken": "=",
-            "topRightToken": " =*/",
-
-            "leftEdgeToken": "/*= ",
-            "rightEdgeToken": " =*/",
-
-            "bottomLeftToken": "/*= ",
-            "bottomEdgeToken": "=",
-            "commentEndToken": " =*/",
-        }
-    },
-
-    //== =======================================================================
     //== Grammarly
     //== =======================================================================
 
