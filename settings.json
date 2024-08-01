@@ -396,6 +396,7 @@
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "explorer.sortOrderLexicographicOptions": "upper",
+    "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "git.allowForcePush": true,
     "git.confirmSync": false,
