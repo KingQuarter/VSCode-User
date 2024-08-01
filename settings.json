@@ -29,6 +29,40 @@
         "*.json": "json"
     },
 
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.accessibilitySupport": "off",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.cursorSurroundingLines": 10,
+    "editor.fontFamily": "Osaka Mono Regular",
+    "editor.guides.bracketPairs": "active",
+    "editor.guides.bracketPairsHorizontal": false,
+    "editor.minimap.enabled": false,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.scale": 2,
+    "editor.minimap.showSlider": "always",
+    "editor.mouseWheelZoom": true,
+    "editor.renderWhitespace": "none",
+    "editor.wordWrap": "on",
+    "editor.wrappingIndent": "indent",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.sortOrderLexicographicOptions": "upper",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "git.allowForcePush": true,
+    "git.confirmSync": false,
+    "git.inputValidation": true,
+    "git.inputValidationSubjectLength": 72,
+    "outline.showProperties": false,
+    "outline.showVariables": false,
+    "scm.inputFontFamily": "editor",
+    "terminal.integrated.fontFamily": "MesloLGM NF",
+    "workbench.colorTheme": "Monokai Pro",
+    "workbench.editor.showTabs": "single",
+    "workbench.editor.wrapTabs": true,
+    "workbench.iconTheme": "material-icon-theme",
+
     //== =======================================================================
     //== Color Customization
     //== =======================================================================
@@ -177,6 +211,13 @@
     //= ========================================================================
     //= Extensions
     //= ========================================================================
+
+    "AutoHotkey2.ActionWhenV1IsDetected": "SwitchToV1",
+    "AutoHotkey2.CompleteFunctionParens": true,
+    "AutoHotkey2.InterpreterPath": "C:\\Program Files\\Autohotkey\\v2\\AutoHotkey64_UIA.exe",
+    "codemap.json": "C:\\Users\\zachpoblete\\AppData\\Roaming\\Code\\User\\codemap.user\\mapper_json.js",
+    "codemap.location": "explorer",
+    "csv-preview.resizeColumns": "all",
 
     //== =======================================================================
     //== Better Comments
@@ -339,49 +380,4 @@
         "document"
     ],
 
-    //= ========================================================================
-    //= Single-line Settings
-    //= ========================================================================
-
-    "AutoHotkey2.ActionWhenV1IsDetected": "SwitchToV1",
-    "AutoHotkey2.CompleteFunctionParens": true,
-    "AutoHotkey2.InterpreterPath": "C:\\Program Files\\Autohotkey\\v2\\AutoHotkey64_UIA.exe",
-    "codemap.json": "C:\\Users\\zachpoblete\\AppData\\Roaming\\Code\\User\\codemap.user\\mapper_json.js",
-    "codemap.location": "explorer",
-    "csv-preview.resizeColumns": "all",
-    "diffEditor.ignoreTrimWhitespace": false,
-    "editor.acceptSuggestionOnEnter": "off",
-    "editor.accessibilitySupport": "off",
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "editor.cursorSurroundingLines": 10,
-    "editor.fontFamily": "Osaka Mono Regular",
-    "editor.guides.bracketPairs": "active",
-    "editor.guides.bracketPairsHorizontal": false,
-    "editor.minimap.enabled": false,
-    "editor.minimap.renderCharacters": false,
-    "editor.minimap.scale": 2,
-    "editor.minimap.showSlider": "always",
-    "editor.mouseWheelZoom": true,
-    "editor.renderWhitespace": "none",
-    "editor.wordWrap": "on",
-    "editor.wrappingIndent": "indent",
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "explorer.sortOrderLexicographicOptions": "upper",
-    "files.insertFinalNewline": true,
-    "files.trimTrailingWhitespace": true,
-    "git.allowForcePush": true,
-    "git.confirmSync": false,
-    "git.inputValidation": true,
-    "git.inputValidationSubjectLength": 72,
-    "gitHistory.showEditorTitleMenuBarIcons": false,
-    "gitlens.codeLens.authors.enabled": false,
-    "outline.showProperties": false,
-    "outline.showVariables": false,
-    "scm.inputFontFamily": "editor",
-    "terminal.integrated.fontFamily": "MesloLGM NF",
-    "workbench.colorTheme": "Monokai Pro",
-    "workbench.editor.showTabs": "single",
-    "workbench.editor.wrapTabs": true,
-    "workbench.iconTheme": "material-icon-theme",
 }
