@@ -400,6 +400,8 @@
     "files.trimTrailingWhitespace": true,
     "git.allowForcePush": true,
     "git.confirmSync": false,
+    "git.inputValidation": true,
+    "git.inputValidationSubjectLength": 72,
     "gitHistory.showEditorTitleMenuBarIcons": false,
     "gitlens.codeLens.authors.enabled": false,
     "outline.showProperties": false,
