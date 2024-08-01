@@ -120,7 +120,7 @@
     //== =======================================================================
 
     "[git-commit]": {
-        // Color rulers the same color as the highlighted line.
+        // Color the rulers the same color as the highlighted line.
         "editor.rulers": [
             {
                 "column": 50,
