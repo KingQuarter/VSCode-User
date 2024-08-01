@@ -17,20 +17,6 @@
         "compounds": []
     },
 
-    "[git-commit]": {
-        // Color rulers the same color as the highlighted line.
-        "editor.rulers": [
-            {
-                "column": 50,
-                "color": "#383539"
-            },
-            {
-                "column": 72,
-                "color": "#383539"
-            },
-        ]
-    },
-
     "[markdown]": {
         "editor.quickSuggestions": {
             "other": true,
@@ -128,6 +114,24 @@
         }
     },
     "terminal.integrated.defaultProfile.windows": "PowerShell",
+
+    //== =======================================================================
+    //== Rulers
+    //== =======================================================================
+
+    "[git-commit]": {
+        // Color rulers the same color as the highlighted line.
+        "editor.rulers": [
+            {
+                "column": 50,
+                "color": "#383539"
+            },
+            {
+                "column": 72,
+                "color": "#383539"
+            },
+        ]
+    },
 
     //= ========================================================================
     //= Extensions
