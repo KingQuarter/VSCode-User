@@ -362,14 +362,6 @@
     //= Single-line Settings
     //= ========================================================================
 
-    // "editor.fontFamily": "'Cascadia Code'",
-    // "editor.fontLigatures": "'calt', 'ss01', 'ss19'",
-    // "editor.fontFamily": "'Fira Mono'",
-    // "editor.fontLigatures": "'zero', 'cv14', 'ss05', 'ss03', 'ss02', 'cv32', 'ss10'",
-    // "editor.fontFamily": "'Fira Code'",
-    // "editor.fontFamily": "'IBM Plex Mono'",
-    "editor.fontFamily": "'MonoLisa'",
-
     "auto-comment-blocks.singleLineBlockOnEnter": true,
     "AutoHotkey2.ActionWhenV1IsDetected": "SwitchToV1",
     "AutoHotkey2.CompleteFunctionParens": true,
@@ -384,6 +376,7 @@
     "editor.accessibilitySupport": "off",
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
     "editor.cursorSurroundingLines": 10,
+    "editor.fontFamily": "Osaka Mono Regular",
     "editor.guides.bracketPairs": "active",
     "editor.guides.bracketPairsHorizontal": false,
     "editor.minimap.enabled": false,
