@@ -370,7 +370,6 @@
     //= Single-line Settings
     //= ========================================================================
 
-    "auto-comment-blocks.singleLineBlockOnEnter": true,
     "AutoHotkey2.ActionWhenV1IsDetected": "SwitchToV1",
     "AutoHotkey2.CompleteFunctionParens": true,
     "AutoHotkey2.InterpreterPath": "C:\\Program Files\\Autohotkey\\v2\\AutoHotkey64_UIA.exe",
