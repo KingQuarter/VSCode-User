@@ -406,7 +406,7 @@
     "scm.inputFontFamily": "editor",
     "terminal.integrated.fontFamily": "MesloLGM NF",
     "workbench.colorTheme": "Monokai Pro",
-    "workbench.editor.showTabs": false,
+    "workbench.editor.showTabs": "single",
     "workbench.editor.wrapTabs": true,
     "workbench.iconTheme": "material-icon-theme",
 }
