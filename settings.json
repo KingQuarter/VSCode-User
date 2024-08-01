@@ -325,8 +325,6 @@
     // "editor.fontFamily": "'IBM Plex Mono'",
     "editor.fontFamily": "'MonoLisa'",
 
-    "ahk++.file.executePath": "C:\\Program Files\\AutoHotkey\\v1.1.36.02\\AutoHotkeyU64_UIA.exe",
-    "ahk++.file.helpPath": "C:\\Program Files\\AutoHotkey\\v1.1.36.02\\AutoHotkey.chm",
     "auto-comment-blocks.singleLineBlockOnEnter": true,
     "AutoHotkey2.ActionWhenV1IsDetected": "SwitchToV1",
     "AutoHotkey2.CompleteFunctionParens": true,
