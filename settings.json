@@ -215,7 +215,7 @@
     "AutoHotkey2.ActionWhenV1IsDetected": "SwitchToV1",
     "AutoHotkey2.CompleteFunctionParens": true,
     "AutoHotkey2.InterpreterPath": "C:\\Program Files\\Autohotkey\\v2\\AutoHotkey64_UIA.exe",
-    "codemap.json": "C:\\Users\\zachpoblete\\AppData\\Roaming\\Code\\User\\codemap.user\\mapper_json.js",
+    "codemap.json": "${env:appdata}\\Code\\User\\codemap.user\\mapper_json.js",
     "codemap.location": "explorer",
     "csv-preview.resizeColumns": "all",
 
