@@ -119,6 +119,47 @@
     //== Rulers
     //== =======================================================================
 
+    // Color the rulers the same color as the highlighted line.
+    "editor.rulers": [
+    // For YouTube captions.
+    // {
+    //     "column": 32,
+    //     "color": "#383539"
+    // },
+    {
+        "column": 80,
+        "color": "#383539"
+    },
+    {
+        "column": 84,
+        "color": "#383539"
+    },
+    {
+        "column": 88,
+        "color": "#383539"
+    },
+    {
+        "column": 92,
+        "color": "#383539"
+    },
+    {
+        "column": 96,
+        "color": "#383539"
+    },
+    {
+        "column": 100,
+        "color": "#383539"
+    },
+    {
+        "column": 120,
+        "color": "#383539"
+    },
+    ],
+
+    //=== ======================================================================
+    //=== Git Commit Message
+    //=== ======================================================================
+
     "[git-commit]": {
         // Color the rulers the same color as the highlighted line.
         "editor.rulers": [
@@ -351,7 +392,6 @@
     "editor.minimap.showSlider": "always",
     "editor.mouseWheelZoom": true,
     "editor.renderWhitespace": "none",
-    "editor.rulers": [80, 120],
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 120,
     "editor.wrappingIndent": "indent",
