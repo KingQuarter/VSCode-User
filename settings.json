@@ -302,6 +302,7 @@
     //== Grammarly
     //== =======================================================================
 
+    "grammarly.startTextCheckInPausedState": true,
     "grammarly.files.exclude": [
         "**/extensions.txt"
     ],
